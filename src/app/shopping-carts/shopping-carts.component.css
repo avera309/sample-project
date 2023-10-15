@@ -1,0 +1,20 @@
+.slideout{
+
+    opacity: 0;
+    z-index: -5;
+}
+.slidein{
+    opacity: 1;
+}
+.button{
+    position:fixed;
+    z-index: 3;
+    right: 0;
+    top: 0;
+    margin-top: 1.3vw;
+    margin-right: 2vw;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    background-color: rgb(16, 221, 68);
+}

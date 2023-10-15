@@ -1,0 +1,17 @@
+footer{
+    background-color: #5F264A;
+}
+.mid{
+    background-color: #643A6B
+}
+.buttom{
+    background-color: #643A6B
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.name{
+    flex-basis: calc(100%/4)
+}

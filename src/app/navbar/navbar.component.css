@@ -1,0 +1,12 @@
+.is-open {
+    transform: translateX(20%);
+    transition: transform ease-out 0.3s;
+}
+    .is-closed {
+        transform: translateX(100%);
+        transition: transform ease-out 0.3s;
+   }
+   .bg-gray-800{
+    background-color: transparent;
+    position: fixed;
+   }
