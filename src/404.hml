@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Page not found</title>
+  <base href="/">
+</head>
+<body>
+  <script>
+    const path = window.location.href.split('/').slice(3).join('/');
+    window.location.href = `/your-repository-name/index.html#${path}`;
+  </script>
+</body>
+</html>
