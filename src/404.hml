@@ -8,7 +8,7 @@
 <body>
   <script>
     const path = window.location.href.split('/').slice(3).join('/');
-    window.location.href = `/your-repository-name/index.html#${path}`;
+    window.location.href = `\sample-project`;
   </script>
 </body>
 </html>
